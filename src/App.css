@@ -1,32 +1,53 @@
-.App {
-  text-align: center;
+html{
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body{
+    min-width: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.perfil{
+    display: flex;
+    flex-direction: column;
+    min-height: 47rem;
+    max-height: 77rem;
+    margin-top: 66px;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 1051px){
+    .perfil{
+        margin-bottom: 40px;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#habilidades{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20rem;
+    max-height: 55rem;
+}
+
+#blog{
+    min-height: 45rem;
+    max-height: 100rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#habilidades{
+    background-image: url("/assets/features-bg.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#p{
+    color: #fff;
 }
