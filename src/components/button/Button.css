@@ -5,7 +5,7 @@
     background: transparent;
     border: 1px solid black;
     border-radius: 50px;
-    transition: 2s;
+    transition: .5s;
 }
 
 #botao:hover{
@@ -23,7 +23,7 @@
     background: transparent;
     border: 1px solid white;
     border-radius: 50px;
-    transition: 2s;
+    transition: .5s;
 }
 
 #botao-white:hover{

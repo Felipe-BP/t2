@@ -1,9 +1,37 @@
+@font-face {
+    font-family: 'raleway-heavy';
+    src: url("/fonts/raleway-heavy-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'merriweather-bold';
+    src: url("/fonts/merriweather-bold-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'merriweather-light';
+    src: url("/fonts/merriweather-light-webfont.ttf");
+}
+
+h3, h4{
+    font-family: 'merriweather-bold', sans-serif !important;
+}
+
+p, article{
+    font-family: 'merriweather-light', sans-serif !important;
+}
+
+.navbar, li{
+    font-family: 'raleway-heavy', sans-serif;
+    font-size: 15px;
+}
+
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    min-width: 600px;
+    min-width: 300px;
 }
 
 .perfil{
@@ -20,18 +48,9 @@ body{
     }
 }
 
-#habilidades{
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: center;
-    min-height: 20rem;
-    max-height: 55rem;
-}
-
 #blog{
     min-height: 45rem;
-    max-height: 100rem;
+    max-height: 104rem;
 }
 
 .title{
@@ -40,14 +59,48 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    font-family: 'merriweather-bold', sans-serif !important;
 }
 
 #habilidades{
     background-image: url("/assets/features-bg.jpg");
     background-size: cover;
     text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    min-height: 20rem;
+    max-height: 55rem;
 }
 
-#p{
+#trabalhos{
+    background-image: url("/assets/intro-bg.jpg");
+    background-size: cover;
+    min-height: 45rem;
+    max-height: 107rem;
+    text-align: center;
+}
+
+#infos{
+    min-height: 30rem;
+    max-height: 107rem;
+    text-align: center;
+}
+
+#contato{
+    background: url("/assets/back-contato.jpg");
+    background-size: cover;
+    min-height: 30rem;
+    max-height: 100rem;
+}
+
+.p{
     color: #fff;
+}
+
+#redes-sociais{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
