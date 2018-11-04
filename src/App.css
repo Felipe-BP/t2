@@ -37,9 +37,10 @@ body{
 .perfil{
     display: flex;
     flex-direction: column;
-    min-height: 47rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    min-height: 42rem;
     max-height: 77rem;
-    margin-top: 66px;
 }
 
 @media screen and (max-width: 1051px){
@@ -50,7 +51,9 @@ body{
 
 #blog{
     min-height: 45rem;
-    max-height: 104rem;
+    max-height: 120rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .title{
@@ -70,6 +73,7 @@ body{
     flex-direction: column; 
     justify-content: space-around;
     align-items: center;
+    padding-top: 1rem;
     min-height: 20rem;
     max-height: 55rem;
 }
@@ -78,14 +82,16 @@ body{
     background-image: url("/assets/intro-bg.jpg");
     background-size: cover;
     min-height: 45rem;
-    max-height: 107rem;
+    max-height: 110rem;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #infos{
     min-height: 30rem;
     max-height: 107rem;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #contato{
