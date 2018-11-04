@@ -1,3 +1,14 @@
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #7e7777;
+}
+
 @font-face {
     font-family: 'raleway-heavy';
     src: url("/fonts/raleway-heavy-webfont.ttf");
@@ -32,6 +43,7 @@ html{
 
 body{
     min-width: 300px;
+    font-size: 18px;
 }
 
 .perfil{
@@ -40,7 +52,7 @@ body{
     padding-top: 3rem;
     padding-bottom: 2rem;
     min-height: 42rem;
-    max-height: 77rem;
+    max-height: 83rem;
 }
 
 @media screen and (max-width: 1051px){
@@ -56,15 +68,6 @@ body{
     padding-bottom: 1rem;
 }
 
-.title{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-family: 'merriweather-bold', sans-serif !important;
-}
-
 #habilidades{
     background-image: url("/assets/features-bg.jpg");
     background-size: cover;
@@ -73,7 +76,7 @@ body{
     flex-direction: column; 
     justify-content: space-around;
     align-items: center;
-    padding-top: 1rem;
+    padding-top: 1.6rem;
     min-height: 20rem;
     max-height: 55rem;
 }

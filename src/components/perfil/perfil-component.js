@@ -13,7 +13,9 @@ class Perfil extends Component {
         return <Fragment>
             <div className="center">
                 <div>
-                    <img src="./assets/felipe-bueno.png" alt="foto-perfil" className="foto" />
+                    <div className="title">
+                        <img src="./assets/felipe-bueno.png" alt="foto-perfil" className="foto" />
+                    </div>
                     <p id="introducao">Olá, meu nome é <b>Felipe Bueno</b> e este é o meu Portifólio!</p>
                 </div>
                 <div className="lista">

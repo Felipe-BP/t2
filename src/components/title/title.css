@@ -1,7 +1,11 @@
 .title{
-    font-family: sans-serif;
     font-size: 40px;
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'merriweather-bold', sans-serif !important;
 }
 
 .title.black:after{
